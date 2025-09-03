@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from .fitness_logic import FitnessLogic # The '.' is important for a proper package structure
+from .fitness_logic import FitnessLogic
 
 class FitnessTrackerApp:
     def __init__(self, master):
